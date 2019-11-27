@@ -11,7 +11,7 @@ https://drive.google.com/open?id=1FG_3MRtqqW2v45vUXN6mJEZCbMNs73F9
 # Environment
 ## Conda Environment
 For step by step insutructions on setting up the environment, please refer to the video in the following link.
-https://drive.google.com/open?id=1xnyFGlvladYh7_Gj5q7nvT666Wu7jzqH
+https://drive.google.com/open?id=14ZDVDUIVT8WA9pkxIPgF4HXQbO8Mlnv8
 
 The minimum prequisite of course is to have anaconda installed on your machine. I personally have it for Python 3.6
 
