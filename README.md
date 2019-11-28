@@ -22,6 +22,21 @@ The general steps are :
 4- Go to Home while being on the tensorflow_env environment and install jupyterlab
 5- launch jupyter notebook 
 
+## Python Version
+### Python 2.7 - Tensorflow 2.0.0 (One currentley using)
+Currentley in conda environments Tensorflow is only compatiable with python 2.7 and when creating one, it by default install the 2.7 version. 
+
+### Python 3.6 - Tensorflow 1.0 (didn't try it)
+UnsatisfiableError: The following specifications were found to be in conflict:
+  - python 3.5*                     <br />
+  - tensorflow 2.0* -> python 2.7.* <br />
+Use "conda info <package>" to see the dependencies for each package. 
+
+### Python 3.6 - Tensorflow 2.0.0 (didn't try it)
+conda create -n tensorflow_env3 tensorflow python>=3.5 <br />
+pip install --upgrade pip                              <br />
+pip install tensorflow==2.0.0                          <br />
+
 ## Hardware Specs
 Model Identifier:	MacBookPro11,1
 Processor Name:	Intel Core i5
