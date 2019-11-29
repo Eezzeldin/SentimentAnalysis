@@ -1,5 +1,5 @@
 # SENTIMENT ANALYSIS
-This is a practice problem on TensorFlow 2.0 Sequential Models Deep Learning on NLP, using the very famous Movie Reviews data for Sentiment Analysis for fun.
+This model was in some instances more accurate in its judgment than the "ground truth", on inspection some False Positives/Negatives were actually True. In other words, the model was more accurate in its judgment than the classification of the imdb dataset itself which is rather very surprising. For instance, a perfectly positive review got picked up by the model as a positive which in imdb is classified as a Negative Sentiment observation, which could be that the reviewer just pressed the wrong stars. Therefore, the model could in some cases even discover irregularities in the ground truth which shows that is is a very reliable model indeed. 
 
 # MODEL
 The model itself has been saved in my_model.h5 so that you would not need to re-train it and you can only just import it. Otherwise, re-running this code should take 15-30 min.
