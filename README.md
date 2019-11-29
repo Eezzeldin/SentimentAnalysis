@@ -56,13 +56,16 @@ Memory:	8 GB
 Boot ROM Version:	156.0.0.0.0
 
 # ANALYSIS
+
+## Visual Analysis
+https://drive.google.com/open?id=1oH0pCjV5z2kDrj7Lmvj3kziUmQF_CbaZm3ljeJhFzOQ
+
 ## Qualitative Analysis
 The analysis is included in the links below but here are some examples of Sentiment Scoring on Extreme Cases: 
 
 - Drop what your doing right now and go check it out, you will not regret it trust me it's one of the best T.V shows ever!
 - The whole thing looks very cheap & the acting is pretty bad. Predator Island is crap, I'm sorry but that's the way it is & I just fail to see what anyone would get out of it. In my humble opinion this probably one to avoid.
 
-https://drive.google.com/open?id=1r-eBSDK_qRCu4XgWNBEadZtYujGXoTdxEkmdL0IzFyc
 https://drive.google.com/open?id=1r-eBSDK_qRCu4XgWNBEadZtYujGXoTdxEkmdL0IzFyc
 
 ## Quantitative Analysis
