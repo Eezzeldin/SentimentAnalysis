@@ -1,14 +1,17 @@
-# SentimentAnalysis
-This is a practice problem on TensorFlow 2.0 Sequential Models Deep Learning on NLP, using the very famous Movie Reviews data for Sentiment Analysis for fun. Also, I am very intrigued by the new Google Colab Free GPU experience and I want to utilize its power for other applications too. Finally, the practice problem itself is very common in NLP and one can find it anywhere but I believe the offered value in this repo is that angle of analysis presented. 
+# SENTIMENT ANALYSIS
+This is a practice problem on TensorFlow 2.0 Sequential Models Deep Learning on NLP, using the very famous Movie Reviews data for Sentiment Analysis for fun.
 
-# Model
+# MODEL
 The model itself has been saved in my_model.h5 so that you would not need to re-train it and you can only just import it. Otherwise, re-running this code should take 15-30 min.
 
-# Output
+embedding = \"https://tfhub.dev/google/tf2-preview/gnews-swivel-20dim/1\"
+
+
+# OUTPUT
 The output of the classification model is included in this google drive link, feel free to download it and look at the model output. 
 https://drive.google.com/open?id=1FG_3MRtqqW2v45vUXN6mJEZCbMNs73F9
 
-# Environment
+# ENVIRONMENT
 ## Conda Environment
 For step by step insutructions on setting up the environment, please refer to the video in the following link.
 https://drive.google.com/open?id=14ZDVDUIVT8WA9pkxIPgF4HXQbO8Mlnv8
@@ -22,7 +25,7 @@ The general steps are :
 4- Go to Home while being on the tensorflow_env environment and install jupyterlab
 5- launch jupyter notebook 
 
-## Python Version
+## PYTHON VERSION
 ### Python 2.7 - Tensorflow 2.0.0 (One currentley using)
 Currentley in conda environments Tensorflow is only compatiable with python 2.7 and when creating one, it by default install the 2.7 version. 
 
@@ -37,7 +40,7 @@ conda create -n tensorflow_env3 tensorflow python>=3.5 <br />
 pip install --upgrade pip                              <br />
 pip install tensorflow==2.0.0                          <br />
 
-## Hardware Specs
+## HARDWARE SPEC
 Model Identifier:	MacBookPro11,1
 Processor Name:	Intel Core i5
 Processor Speed:	2.4 GHz
@@ -49,4 +52,29 @@ Hyper-Threading Technology:	Enabled
 Memory:	8 GB
 Boot ROM Version:	156.0.0.0.0
 
+# ANALYSIS
+## Qualitative Analysis
+The analysis is included in the links below but here are some examples of Sentiment Scoring on Extreme Cases: 
+
+- Drop what your doing right now and go check it out, you will not regret it trust me it's one of the best T.V shows ever!
+- The whole thing looks very cheap & the acting is pretty bad. Predator Island is crap, I'm sorry but that's the way it is & I just fail to see what anyone would get out of it. In my humble opinion this probably one to avoid.
+
+https://drive.google.com/open?id=1r-eBSDK_qRCu4XgWNBEadZtYujGXoTdxEkmdL0IzFyc
+https://drive.google.com/open?id=1r-eBSDK_qRCu4XgWNBEadZtYujGXoTdxEkmdL0IzFyc
+
+## Quantitative Analysis
+Test Data Size               :  25K
+Positive Samples             : 12500
+Negative Samples             : 12500
+Threshold                    :  0.5
+Total True                   :  21581
+Total False                  : 3419
+Total True  Positives        : 10,765      -  86%           of Positive Sentiment 
+Total False Positives        : 1,735       - 14%            of Positive Sentiment
+Total True Negatives         : 10,816      - 86.5%          of Negative Sentiment Records 
+Total False Negatives        :  1,684      - 13.5%          of Negative Sentiment Records
+
+Accuracy : TT  / Test Data Size  =  21581   / 25000           = 0.86324
+Precision : TP  / TP + FP        =  10765   / (10765 + 1735)  = 0.8612
+Sensitivity: TP / TP + FN        =   10765 /   (10765 + 1684) = 0.8647
 
