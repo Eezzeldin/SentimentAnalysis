@@ -4,8 +4,11 @@ This is a practice problem on TensorFlow 2.0 Sequential Models Deep Learning on 
 # MODEL
 The model itself has been saved in my_model.h5 so that you would not need to re-train it and you can only just import it. Otherwise, re-running this code should take 15-30 min.
 
-embedding = \"https://tfhub.dev/google/tf2-preview/gnews-swivel-20dim/1\"
-
+embedding  = \"https://tfhub.dev/google/tf2-preview/gnews-swivel-20dim/1\" <br />
+Epochs     = 16                                                            <br />
+optimizer  = adam,                                                         <br />
+loss       ='binary_crossentropy'                                          <br />
+metrics    = accuracy                                                      <br />
 
 # OUTPUT
 The output of the classification model is included in this google drive link, feel free to download it and look at the model output. 
