@@ -63,18 +63,18 @@ https://drive.google.com/open?id=1r-eBSDK_qRCu4XgWNBEadZtYujGXoTdxEkmdL0IzFyc
 https://drive.google.com/open?id=1r-eBSDK_qRCu4XgWNBEadZtYujGXoTdxEkmdL0IzFyc
 
 ## Quantitative Analysis
-Test Data Size               :  25K
-Positive Samples             : 12500
-Negative Samples             : 12500
-Threshold                    :  0.5
-Total True                   :  21581
-Total False                  : 3419
-Total True  Positives        : 10,765      -  86%           of Positive Sentiment 
-Total False Positives        : 1,735       - 14%            of Positive Sentiment
-Total True Negatives         : 10,816      - 86.5%          of Negative Sentiment Records 
-Total False Negatives        :  1,684      - 13.5%          of Negative Sentiment Records
+Test Data Size               :  25K    <br />
+Positive Samples             : 12500   <br />
+Negative Samples             : 12500   <br />
+Threshold                    :  0.5    <br />
+Total True                   :  21581  <br />
+Total False                  : 3419    <br />
+Total True  Positives        : 10,765      -  86%           of Positive Sentiment  <br />
+Total False Positives        : 1,735       - 14%            of Positive Sentiment  <br />
+Total True Negatives         : 10,816      - 86.5%          of Negative Sentiment Records  <br />
+Total False Negatives        :  1,684      - 13.5%          of Negative Sentiment Records  <br />
 
-Accuracy : TT  / Test Data Size  =  21581   / 25000           = 0.86324
-Precision : TP  / TP + FP        =  10765   / (10765 + 1735)  = 0.8612
-Sensitivity: TP / TP + FN        =   10765 /   (10765 + 1684) = 0.8647
+Accuracy : TT  / Test Data Size  =  21581   / 25000           = 0.86324  <br />
+Precision : TP  / TP + FP        =  10765   / (10765 + 1735)  = 0.8612   <br />
+Sensitivity: TP / TP + FN        =   10765 /   (10765 + 1684) = 0.8647   <br />
 
